@@ -11,7 +11,7 @@
 <ol>
 <li><strong>Створення бібліотеки-експлойту:</strong> Спершу ми напишемо програму на C (файл <code>shell.c</code>), яку скомпілюємо в загальний об'єкт (файл <code>shell.so</code>). Ця бібліотека виконає ескалацію привілеїв, запустивши оболонку з правами root.</li>
 </ol> 
-'''
+
 <pre><code>#include &lt;stdio.h&gt;
      #include &lt;sys/types.h&gt;
 #include &lt;stdlib.h&gt;
