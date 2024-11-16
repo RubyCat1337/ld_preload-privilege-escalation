@@ -26,7 +26,7 @@ void _init() {
     
 <p>У цьому коді:</p>
     <ul>
-        <li><code>setgid(0)</code> і <code>setuid(0)</code> встановлюють ID групи та користувача на <code>0</code>, що відповідає користувачу root.</li>
+        <li><code>setgid(0)</code> і <code>setuid(0)</code> встановлюють GID  та UID на <code>0</code>, що відповідає користувачу root.</li>
         <li><code>system("/bin/sh")</code> запускає оболонку з правами root.</li>
     </ul>
 
